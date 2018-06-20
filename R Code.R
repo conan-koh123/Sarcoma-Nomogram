@@ -138,7 +138,7 @@ server <- function(input, output) {
       OS_7_years <- 
         ifelse((total_point > 0 & total_point <= 19), 0.991,
                ifelse((total_point > 19 & total_point <= 68), 0.99 - 0.04/49 * (total_point - 19),
-                      ifelse((total_point > 69 & total_point <= 90), 0.95 - 0.05/21 * (total_point - 69), 
+                      ifelse((total_point > 68 & total_point <= 90), 0.95 - 0.05/21 * (total_point - 69), 
                              ifelse((total_point > 90 & total_point <= 113), 0.9 - 0.1/23 * (total_point - 90),
                                     ifelse((total_point > 113 & total_point <= 128), 0.8 - 0.1/15 * (total_point - 113),
                                            ifelse((total_point > 128 & total_point <= 138), 0.7 - 0.1/10 * (total_point - 128), 
