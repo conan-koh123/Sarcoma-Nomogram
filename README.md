@@ -1,4 +1,7 @@
 # Sarcoma-Nomogram
+
+This application was created with the intent to make predicting outome based on the few features of sarcoma patients more convenient, as the hard copy version was tenious and difficult to use both in clinical and research setting.  
+
 Retroperitoneal Soft Tissue Sarcoma Nomogram adapted from "Outcome prediction in primary resected retroperitoneal soft tissue sarcoma: 
 histology-specific overall survival and disease-free survival nomograms built on major sarcoma center data sets.
 Gronchi A, Miceli R, Shurell E, Eilber FC, Eilber FR, Anaya DA, Kattan MW, Honore C, Lev DC, Colobo C, Bonvalot S, 
